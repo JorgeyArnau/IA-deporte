@@ -326,6 +326,105 @@ footer {
   margin-bottom: 1rem;
   border-radius: 0 8px 8px 0;
 }
+/* ===== NAVBAR AJUSTADO ===== */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 1rem;
+}
 
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.nav a {
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  padding: 0.5rem 0;
+}
+
+.nav a:hover {
+  color: var(--primario);
+}
+
+/* ===== FAQ VISUAL BONITO ===== */
+.faq-question {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: var(--primario);
+  transition: background 0.3s ease, padding-left 0.3s ease;
+  border-bottom: 1px solid #ddd;
+  border-radius: 0;
+}
+
+.faq-question:hover {
+  background-color: #eef6ff;
+  padding-left: 1.5rem;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0.75rem 1.5rem 1rem;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-left: 4px solid var(--primario);
+  border-radius: 0 8px 8px 0;
+  margin-bottom: 1rem;
+}
+
+/* ===== SECCIONES MÁS LIMPIAS ===== */
+.info-section {
+  padding: 4rem 2rem;
+  background-color: #ffffffd6;
+  border-top: 1px solid #e0e0e0;
+}
+
+.info-section h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: var(--verde);
+}
+
+.info-section p,
+.info-section ul {
+  max-width: 900px;
+  margin: 0 auto 1.8rem;
+  line-height: 1.8;
+  color: #444;
+  font-size: 1.1rem;
+}
+
+.info-section ul li {
+  margin-bottom: 0.7rem;
+  padding-left: 0.5rem;
+}
+
+/* ===== TITULOS Y PÁRRAFOS AJUSTADOS ===== */
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #111;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #222;
+}
 
