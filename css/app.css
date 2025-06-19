@@ -296,6 +296,36 @@ footer {
   font-size: 2rem;
   margin-bottom: 0.6rem;
 }
+.faq-question {
+  background: none;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  color: var(--primario);
+  transition: background 0.3s ease, padding-left 0.3s ease;
+  border-bottom: 1px solid #ddd;
+}
+
+.faq-question:hover {
+  background-color: #eef6ff;
+  padding-left: 1.5rem;
+}
+
+.faq-answer {
+  display: none;
+  padding: 0.5rem 1rem 1rem 1.5rem;
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  border-left: 3px solid var(--primario);
+  margin-bottom: 1rem;
+  border-radius: 0 8px 8px 0;
+}
 
 
 
